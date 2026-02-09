@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Gradio
+flagged/
+
+# Model cache (large files)
+.cache/
+
+# Trained models (run train_model.py to generate)
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

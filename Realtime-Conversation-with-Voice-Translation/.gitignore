@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.txt.gz
+*.pkl
+*.pickle
+
+# Model Checkpoints - Using Git LFS for large files
+# Keeping best_model.pth files for demonstration
+models/translation/en_to_es/*.pth
+models/translation/es_to_en/*.pth
+
+# Audio Files
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Logs
+logs/
+*.log
+training_logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Hugging Face cache (downloaded models)
+.cache/

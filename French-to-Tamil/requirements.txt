@@ -1,0 +1,16 @@
+# French to Tamil Translation - Requirements
+# Uses Helsinki-NLP pre-trained neural network models
+
+# Core ML framework
+torch>=2.0.0
+
+# Transformers library for Helsinki-NLP models
+transformers>=4.30.0
+
+# Tokenizer support
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# Visualization (for generating charts)
+matplotlib>=3.5.0
+numpy>=1.21.0
